@@ -1,0 +1,5 @@
+vendor/
+config/cloud_storage.php
+.idea/
+.phpunit/
+**/.phpunit.result.cache

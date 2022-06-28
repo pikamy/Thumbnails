@@ -1,0 +1,25 @@
+{
+  "name": "pikamy/thumbnails",
+  "require": {
+    "php" : "^7.4 || ^8.0",
+    "symfony/symfony": "5.4",
+    "symfony/console": "^5.4",
+    "symfony/framework-bundle": "^5.4",
+    "ext-gd": "*",
+    "aws/aws-sdk-php": "^3.228"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Thumbnails\\": "src/",
+      "Thumbnails\\ConsoleCommands\\": "bin/ConsoleCommands/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Thumbnails\\Tests\\": "tests/"
+    }
+  }
+}
